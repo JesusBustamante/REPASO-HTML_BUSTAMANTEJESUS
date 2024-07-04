@@ -1,0 +1,42 @@
+.container {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+#sky {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top: 0vw;
+    left: 0vw;
+    z-index: -1;
+}
+
+#nube1 {
+    position: absolute;
+    width: 15vw;
+    top: 5vw;
+    left: -15vw;
+    animation-name: nube;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#nube2 {
+    position: absolute;
+    width: 15vw;
+    top: 18vw;
+    left: -15vw;
+    animation-name: nube;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nube {
+    from {transform: translate(0vw);}
+    to {transform: translate(115vw);}
+}
