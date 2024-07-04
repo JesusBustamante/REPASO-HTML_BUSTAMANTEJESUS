@@ -4,6 +4,69 @@ body {
   background:#2c333a;
 }
 
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+span1 {
+  display: block;
+  margin-left: 0vw;
+  color: #80bfb2;
+  animation-name: letra;
+  animation-duration: 4s;
+  transform: rotatex(180deg);
+}
+
+span2 {
+  color: #8898a2;
+  animation-name: letra;
+  animation-duration: 4.5s;
+  transform: rotatex(180deg);
+}
+
+span3 {
+  color: #80bfb2;
+  animation-name: letra;
+  animation-duration: 5s;
+  transform: rotatex(180deg);
+}
+
+span4 {
+  color: #8898a2;
+  animation-name: letra;
+  animation-duration: 5.5s;
+  transform: rotatex(180deg);
+}
+
+span5 {
+  color: #80bfb2;
+  animation-name: letra;
+  animation-duration: 6s;
+  transform: rotatex(180deg);
+}
+
+span6 {
+  color: #8898a2;
+  animation-name: letra;
+  animation-duration: 6.5s;
+  transform: rotatex(180deg);
+}
+
+span7 {
+  color: #80bfb2;
+  animation-name: letra;
+  animation-duration: 7s;
+  transform: rotatex(180deg);
+}
+
+@keyframes letra {
+  0% {transform: rotatex(-180deg);}
+  50% {transform: rotatex(0deg);}
+  100% {transform: rotatex(180deg);}
+}
+
 
 
 
