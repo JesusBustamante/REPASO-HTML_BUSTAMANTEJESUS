@@ -67,6 +67,94 @@ span7 {
   100% {transform: rotatex(180deg);}
 }
 
+.sidebar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 5vw;
+  height: 50vw;
+  top: 0vw;
+  left: 0vw;
+  background-color: black;
+}
+
+#menu {
+  position: absolute;
+  width: 3vw;
+  right: 1vw;
+}
+
+#check {
+  z-index: -2;
+}
+
+#check:checked ~.sidebar {
+  width: 15vw;
+  height: 100vw;
+  animation-name: nose;
+  animation-duration: 1s;
+  transition: 1s;
+}
+
+@keyframes nose {
+  from { width: 5vw ; height: 100vw;}
+  to { width: 15vw; height: 100vw;}
+}
+
+#img1{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  top: 5vw;
+  left: 1.3vw;
+}
+
+#img2 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  top: 8vw;
+  left: 1.3vw;
+}
+
+#img3 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  top: 11vw;
+  left: 1.3vw;
+}
+
+#nose {
+  position: absolute;
+  font-size: 1vw;
+  color: white;
+  top: 5.2vw;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+span9 {
+  position: absolute;
+  font-size: 1vw;
+  color: white;
+  top: 8.2vw;
+}
+
+span10 {
+  position: absolute;
+  font-size: 1vw;
+  color: white;
+  top: 11.2vw;
+}
+
+#check:checked ~#nose {
+  opacity: 1;
+}
+
+#check:not(:checked) ~#nose {
+  opacity: 0;
+}
 
 
 
