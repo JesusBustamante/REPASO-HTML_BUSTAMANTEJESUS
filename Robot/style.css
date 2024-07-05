@@ -1,0 +1,107 @@
+@font-face {
+    font-family: regular;
+    src: url(font/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(font/MyriadPro-Light.woff);
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 49.8vw;
+    top: 0vw;
+    left: 0vw;
+    background-color: #f7e3ca;
+}
+
+.cuadro {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 10vw;
+    width: 25vw;
+    height: 17vw;
+    border-radius: 2px;
+    background-color: #fff;
+    animation-name: wall-i;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes wall-i {
+    0% {transform: translateY(20vw);}
+    60% {transform: translateY(-5vw);}
+    80% {transform: translateY(1.5vw);}
+    100% {transform: translateY(0vw);}
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: -2.5vw;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    background-color: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#robot {
+    position: absolute;
+    top: 0.6vw;
+    width: 5.6vw;
+}
+
+.circle2 {
+    position: absolute;
+    width: 6.5vw;
+    height: 6.5vw;
+    border: 0.7vw solid #fff;
+    border-radius: 50vw;
+}
+
+#reservation {
+    position: absolute;
+    top: 5vw;
+    font-size: 1.7vw;
+    color: red;
+    font-family: regular;
+}
+
+#meet {
+    position: absolute;
+    top: 8vw;
+    font-size: 1vw;
+    font-family: mlight;
+}
+
+.buttom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 13vw;
+    width: 12.2vw;
+    height: 2.5vw;
+    border-radius: 2px;
+    background-color: #269caf;
+    transition: 0.5s;
+}
+
+
+#make {
+    font-family: regular;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.buttom:hover  {
+    background-color: red;
+}
