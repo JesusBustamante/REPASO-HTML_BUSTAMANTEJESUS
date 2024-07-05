@@ -1,32 +1,43 @@
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 25vw;
 }
 
-img {
-    width: 40vw;
-    height: 34vw;
+#fondo {
+    position: absolute;
+    width: 100vw;
+    height: 49vw;
+    top: 0vw;
+    left: 0vw;
 }
 
 .frames {
     position: absolute;
-    width: 500px;
-    height: 490px;
-    animation: caminata 1s infinite;
+    width: 300px;
+    height: 290px;
+    animation-name: caminata, traslacion;
+    animation-duration: 0.5s, 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 
 @keyframes caminata {
-    0% { background-image: url(img/Frame1.jpg);}
-    11% { background-image: url(img/Frame2.jpg);}
-    22% { background-image: url(img/Frame3.jpg);}
-    33% { background-image: url(img/Frame4.jpg);}
-    44% { background-image: url(img/Frame5.jpg);}
-    55% { background-image: url(img/Frame6.jpg);}
-    66% { background-image: url(img/Frame7.jpg);}
-    77% { background-image: url(img/Frame8.jpg);}
-    88% { background-image: url(img/Frame9.jpg);}
-    100% { background-image: url(img/Frame10.jpg);}
+    0% { background-image: url(img/Frame1.png); ;}
+    11% { background-image: url(img/Frame2.png); ;}
+    22% { background-image: url(img/Frame3.png); ;}
+    33% { background-image: url(img/Frame4.png); ;}
+    44% { background-image: url(img/Frame5.png); ;}
+    55% { background-image: url(img/Frame6.png); ;}
+    66% { background-image: url(img/Frame7.png); ;}
+    77% { background-image: url(img/Frame8.png); ;}
+    88% { background-image: url(img/Frame9.png); ;}
+    100% { background-image: url(img/Frame10.png); ;}
+}
+
+@keyframes traslacion {
+    from {transform: translateX(55vw);}
+    to {transform: translateX(-55vw);}
 }
   
