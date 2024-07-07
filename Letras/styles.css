@@ -75,7 +75,7 @@ span7 {
   height: 100vw;
   top: 0vw;
   left: 0vw;
-  background-color: black;
+  background-color: #8898a2;
 }
 
 #menu {
@@ -158,17 +158,3 @@ span7 {
 #check:not(:checked) + .sidebar .nombres span {
   opacity: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

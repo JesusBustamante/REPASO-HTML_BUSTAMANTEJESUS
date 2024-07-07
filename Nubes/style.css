@@ -40,3 +40,95 @@
     from {transform: translate(0vw);}
     to {transform: translate(115vw);}
 }
+
+.sidebar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5vw;
+    height: 100vw;
+    top: 0vw;
+    left: 0vw;
+    background-color: #272a68;
+  }
+  
+  #menu {
+    position: absolute;
+    width: 3vw;
+    right: 1vw;
+  }
+  
+  #check {
+    z-index: -2;
+  }
+  
+  #check:checked ~.sidebar {
+    width: 15vw;
+    height: 100vw;
+    animation-name: nose;
+    animation-duration: 0s;
+    transition: 0s;
+  }
+  
+  @keyframes nose {
+    from { width: 5vw ; height: 100vw;}
+    to { width: 15vw; height: 100vw;}
+  }
+  
+  #img1{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    top: 5vw;
+    left: 1.3vw;
+  }
+  
+  #img2 {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    top: 8vw;
+    left: 1.3vw;
+  }
+  
+  #img3 {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    top: 11vw;
+    left: 1.3vw;
+  }
+  
+  #s1 {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    top: 5.2vw;
+  }
+  
+  #s2 {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    top: 8.2vw;
+  }
+  
+  #s3 {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    top: 11.2vw;
+  }
+  
+  .nombres span {
+    opacity: 0;
+    transition: 0s;
+  }
+  
+  #check:checked + .sidebar .nombres span {
+    opacity: 1;
+  }
+  
+  #check:not(:checked) + .sidebar .nombres span {
+    opacity: 0;
+  }
