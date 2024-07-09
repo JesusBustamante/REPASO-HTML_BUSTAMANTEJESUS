@@ -1,0 +1,32 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    top: 0vw;
+    left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0vw;
+    background-color: black;
+}
+
+.barra1 {
+    width: 5vw;
+    height: 25vw;
+    background-color: red;
+}
+
+.barra2 {
+    width: 5vw;
+    height: 25vw;
+    background-color: red;
+    transform: skew(19.7deg);
+    z-index: 1;
+}
+
+.barra3 {
+    width: 5vw;
+    height: 25vw;
+    background-color: red;
+}
