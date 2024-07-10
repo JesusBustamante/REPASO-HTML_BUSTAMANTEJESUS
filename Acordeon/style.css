@@ -41,7 +41,7 @@ section:target p {
 }
 
 section:not(:target) p {
-    transition-delay:.2s; /* add a delay to the slide-up animation */
+    transition-delay:.2s;
 }
 
 section img {
