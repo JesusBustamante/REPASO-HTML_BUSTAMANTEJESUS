@@ -83,6 +83,15 @@
     background-image: linear-gradient(to bottom, #fff, #fff);
     transform-origin: 50% 100%;
   }
+
+  .raya::before {
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 0.2vw;
+    height: 1vw;
+    transform: translatex(5vw);
+  }
   
   .raya:nth-child(1) {
     transform: rotate(0deg) translate(0vw, 13.5vw);
@@ -317,3 +326,5 @@
   .raya:nth-child(60) {
     transform: rotate(360deg) translate(0vw, 13.5vw);
   }
+
+  
