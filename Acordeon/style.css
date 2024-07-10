@@ -1,0 +1,70 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh ;
+    background-color: #d71435;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 37vw;
+    background-color: white;
+}
+
+section p {
+    overflow: hidden;
+    max-height: 0vw;
+    border-bottom: 0.5vw solid #d71435;
+    padding: -1vw;
+    transition: all .2s ease-in-out;
+}
+
+section a {
+    text-decoration: none;
+    color: #276eb6;
+    display: block;
+    padding: 1.5vw;
+}
+
+section:target p {
+    max-height: 7.5vw;
+    padding: 1.5vw;
+    margin-top: -2vw;
+}
+
+section:not(:target) p {
+    transition-delay:.2s; /* add a delay to the slide-up animation */
+}
+
+section img {
+    position: absolute;
+    left: 65vw;
+}
+
+#down1 {
+    margin-top: -0.4vw;
+}
+
+#down2 {
+    margin-top: -0.4vw;
+}
+
+#down3 {
+    margin-top: -0.4vw;
+}
+
+#down4 {
+    margin-top: -0.4vw;
+}
+
+#down5 {
+    margin-top: -0.4vw;
+}
