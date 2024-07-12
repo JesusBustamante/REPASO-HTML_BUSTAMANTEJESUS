@@ -41,7 +41,14 @@
     font-size: 1vw;
     font-family: cascadia;
     margin-left: 4vw;
+    margin-bottom: 1vw;
 }
+
+.menu span:hover {
+  border-bottom: 1px solid #a27841;
+
+}
+
 
 #home {
     margin-left: 54vw;
