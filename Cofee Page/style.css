@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #000;
     background-color: #a27841;
     width: 6vw;
     height: 2vw;
@@ -171,6 +171,7 @@
     color: #000;
     margin-top: 60vw;
     margin-left: -30vw;
+    font-size: 1vw;
 }
 
 #section3 {
@@ -211,11 +212,13 @@
     position: absolute;
     color: white;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha {
     margin-top: -14vw;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso {
@@ -240,6 +243,7 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .menu2 {
@@ -264,11 +268,13 @@
     position: absolute;
     color: white;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha2 {
     margin-top: -14vw;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso2 {
@@ -293,6 +299,7 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .menu3 {
@@ -317,11 +324,13 @@
     position: absolute;
     color: white;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha3 {
     margin-top: -14vw;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso3 {
@@ -346,11 +355,12 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .section4 {
     background-color: #110f0f;
-    height: 25vw;
+    height: 27vw;
 }
 
 .tittles {
@@ -385,11 +395,13 @@
     text-align: center;
     color: white;
     font-family: mlight;
+    font-size: 1.7vw;
 }
 
 .copyright {
     color: white;
     font-family: mlight;
+    font-size: 1vw;
     margin-top: 10vw;
     margin-left: 42vw;
 }
