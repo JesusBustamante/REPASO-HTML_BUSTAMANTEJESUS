@@ -1,7 +1,12 @@
+@font-face {
+    font-family: abril;
+    src: url(Images/AbrilFatface-Regular.otf);
+}
+
 .container {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     background-color: #121112;
     top: 0vw;
     left: 0vw;
@@ -11,7 +16,7 @@
     position: absolute;
     display: flex;
     align-items: end;
-    background: #000;
+    background: #110e0f;
     width: 100vw;
     height: 3.5vw;
 }
@@ -29,4 +34,336 @@
 #logo {
     position: absolute;
     left: 20vw;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.5vw;
+}
+
+#start {
+    margin-top: 5vw;
+    font-size: 4.5vw;
+    color: white;
+    font-family: abril;
+}
+
+#firstcoffee {
+    width: 20vw;
+    margin: 4vw;
+}
+
+#with {
+    font-size: 4.5vw;
+    color: white;
+    font-family: abril;
+}
+
+.cuadrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    background-color: #a27841;margin-top: 1vw;
+    font-size: 1vw;
+}
+
+#section2 {
+    background-color: #110f0f;
+    display: flex;
+    align-items: center;
+    height: 100vw;
+}
+
+#secondcoffee {
+    width: 35vw;
+    height: 25vw;
+    margin-left: 5vw;
+    margin-top: -50vw;
+}
+
+#section2 span {
+    position: absolute;
+}
+
+#our {
+    color: white;
+    font-size: 4vw;
+    font-family: abril;
+    left: 60vw;
+    top: 70vw;
+}
+
+#lorem {
+    font-size: 1vw;
+    color: white;
+    left: 63.5vw;
+    top: 77vw;
+}
+
+#learn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #a27841;
+    width: 6vw;
+    height: 2vw;
+    font-size: 1vw;
+    left: 63.5vw;
+    top: 83vw;
+}
+
+#thirdcoffee {
+    width: 25vw;
+    height: 25vw;
+    margin-left: 40vw;
+    margin-top: 50vw;
+}
+
+#perfect {
+    font-size: 3vw;
+    color: white;
+    font-family: abril;
+    margin-top: 40vw;
+    margin-left: 10vw;
+}
+
+#lorem2 {
+    font-size: 1vw;
+    color: white;
+    margin-top: 55vw;
+    margin-left: 10vw;
+}
+
+#more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a27841;
+    width: 6vw;
+    height: 2vw;
+    color: #000;
+    margin-top: 60vw;
+    margin-left: -30vw;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #110f0f;
+    height: 49vw;
+}
+
+#product {
+    position: absolute;
+    color: white;
+    font-family: abril;
+    font-size: 3vw;
+    top: 155vw;
+    left: 4vw;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vw;
+    width: 18vw;
+    height: 25vw;
+    border: 0.1vw solid #a27841;
+    border-radius: 0.2vw;
+}
+
+#img1  {
+    width: 5vw;
+    height: 5vw;
+    margin-top: -25vw;
+}
+
+.menu1 span {
+    position: absolute;
+    color: white;
+}
+
+#mocha {
+    margin-top: -14vw;
+}
+
+#espresso {
+    margin-top: -5vw;
+    margin-left: -2vw;
+}
+
+#chocolate {
+    margin-left: -1.5vw;
+}
+
+#steamed {
+    margin-top: 5vw;
+}
+
+.learn1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    background-color: #a27841;
+    top: 187vw;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vw;
+    width: 18vw;
+    height: 25vw;
+    border: 0.1vw solid #a27841;
+    border-radius: 0.2vw;
+}
+
+#img2  {
+    width: 5vw;
+    height: 5vw;
+    margin-top: -25vw;
+}
+
+.menu2 span {
+    position: absolute;
+    color: white;
+}
+
+#mocha2 {
+    margin-top: -14vw;
+}
+
+#espresso2 {
+    margin-top: -5vw;
+    margin-left: -2vw;
+}
+
+#chocolate2 {
+    margin-left: -1.5vw;
+}
+
+#steamed2 {
+    margin-top: 5vw;
+}
+
+.learn2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    background-color: #a27841;
+    top: 187vw;
+}
+
+.menu3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vw;
+    width: 18vw;
+    height: 25vw;
+    border: 0.1vw solid #a27841;
+    border-radius: 0.2vw;
+}
+
+#img3  {
+    width: 5vw;
+    height: 5vw;
+    margin-top: -25vw;
+}
+
+.menu3 span {
+    position: absolute;
+    color: white;
+}
+
+#mocha3 {
+    margin-top: -14vw;
+}
+
+#espresso3 {
+    margin-top: -5vw;
+    margin-left: -2vw;
+}
+
+#chocolate3 {
+    margin-left: -1.5vw;
+}
+
+#steamed3 {
+    margin-top: 5vw;
+}
+
+.learn3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    background-color: #a27841;
+    top: 187vw;
+}
+
+.section4 {
+    background-color: #110f0f;
+    height: 25vw;
+}
+
+.tittles {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 2vw;
+}
+
+#about {
+    margin-left: 3vw;
+}
+
+#contacto {
+    margin-left: 5vw;
+}
+
+#opening {
+    margin-left: 5vw;
+}
+
+.tittles span {
+    color: #a27841;
+}
+
+.parrafos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    margin-top: 10vw;
+    margin-left: 42vw;
+}
+
+footer span {
+    color: #a27841;
 }
