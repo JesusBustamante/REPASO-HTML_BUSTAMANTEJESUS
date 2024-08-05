@@ -57,12 +57,16 @@ Fuentes Tipográficas: La carpeta font contiene archivos de fuentes utilizados p
 
 # Instrucciones
 
-Clonar el repositorio
+1. Clonar el repositorio
 
 ~~~
 https://github.com/JesusBustamante/REPASO-HTML_BUSTAMANTEJESUS.git
 ~~~
-Abre el archivo index.html de cualquier página en tu navegador web. **La landing page es la única aislada del resto**
+
+2. Si es clonado en Visual Studio Code, descargue la extensión Live Server
+
+3. Abre el archivo index.html de cualquier página con Live server dando click derecho sobre el archivo index.html, y seleccionando la opción Open With Live Server. **La landing page es la única aislada del resto**
+
 
 # Desarrollado por: 
 
