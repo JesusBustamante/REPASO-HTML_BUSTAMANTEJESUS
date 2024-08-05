@@ -3,6 +3,21 @@
     src: url(Images/AbrilFatface-Regular.otf);
 }
 
+@font-face {
+    font-family: myriad;
+    src: url(Images/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: cascadia;
+    src: url(Images/Cascadia\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: mlight;
+    src: url(Images/MyriadPro-Light.woff);
+}
+
 .container {
     position: absolute;
     width: 100vw;
@@ -24,8 +39,16 @@
 .menu span {
     color: white;
     font-size: 1vw;
+    font-family: cascadia;
     margin-left: 4vw;
+    margin-bottom: 1vw;
 }
+
+.menu span:hover {
+  border-bottom: 1px solid #a27841;
+
+}
+
 
 #home {
     margin-left: 54vw;
@@ -34,6 +57,7 @@
 #logo {
     position: absolute;
     left: 20vw;
+    font-size: 1.5vw;
 }
 
 #section1 {
@@ -101,6 +125,7 @@
 
 #lorem {
     font-size: 1vw;
+    font-family: mlight;
     color: white;
     left: 63.5vw;
     top: 77vw;
@@ -111,7 +136,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #000;
     background-color: #a27841;
     width: 6vw;
     height: 2vw;
@@ -137,6 +162,7 @@
 
 #lorem2 {
     font-size: 1vw;
+    font-family: mlight;
     color: white;
     margin-top: 55vw;
     margin-left: 10vw;
@@ -152,6 +178,7 @@
     color: #000;
     margin-top: 60vw;
     margin-left: -30vw;
+    font-size: 1vw;
 }
 
 #section3 {
@@ -191,10 +218,14 @@
 .menu1 span {
     position: absolute;
     color: white;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha {
     margin-top: -14vw;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso {
@@ -219,6 +250,7 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .menu2 {
@@ -242,10 +274,14 @@
 .menu2 span {
     position: absolute;
     color: white;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha2 {
     margin-top: -14vw;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso2 {
@@ -270,6 +306,7 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .menu3 {
@@ -293,10 +330,14 @@
 .menu3 span {
     position: absolute;
     color: white;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #mocha3 {
     margin-top: -14vw;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 #espresso3 {
@@ -321,11 +362,12 @@
     height: 2vw;
     background-color: #a27841;
     top: 187vw;
+    font-size: 1vw;
 }
 
 .section4 {
     background-color: #110f0f;
-    height: 25vw;
+    height: 27vw;
 }
 
 .tittles {
@@ -337,14 +379,17 @@
 
 #about {
     margin-left: 3vw;
+    font-family: myriad;
 }
 
 #contacto {
     margin-left: 5vw;
+    font-family: myriad;
 }
 
 #opening {
     margin-left: 5vw;
+    font-family: myriad;
 }
 
 .tittles span {
@@ -356,10 +401,14 @@
     justify-content: space-around;
     text-align: center;
     color: white;
+    font-family: mlight;
+    font-size: 1.7vw;
 }
 
 .copyright {
     color: white;
+    font-family: mlight;
+    font-size: 1vw;
     margin-top: 10vw;
     margin-left: 42vw;
 }
